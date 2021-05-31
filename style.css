@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(42, 130, 165);
+    color: white;
+}
+
+thead {
+    height: 50px;
+}
+
+tr {
+    min-width: 50px;
+}
+  
+table {
+    border-collapse: collapse;
+}
+
+#myTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#myTable {
+    margin: 0 auto;
+    width: 1040px;
+}
+
+.inputAPI {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    min-width: 800px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(42, 130, 165);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}

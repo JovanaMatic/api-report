@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch SAPI</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Create table report from API query</h2>
+    <div class="inputAPI">
+        <label for="api">Input API call:</label>
+        <input type="text" id="apiInput" name="apiInput" placeholder="Input api" required>
+        <button>Submit</button>
+        <button onclick="exportTableToExcel()">Export to table</button>
+    </div>
+
+    <div class="output">
+        <table id="myTable">
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+    <script src="exportTable.js"></script>
+</body>
+</html>
